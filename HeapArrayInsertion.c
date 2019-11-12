@@ -48,9 +48,8 @@ int main()
 			printf("%s\n", newArr[i]);  
 		  }
 		  
-		  
-		 
-		 
+		 //You allocated an array of objects. You can't free them by elements. What you can do is just free arr itself:
+		 free(arr);
 		  
 		  
           return 0;

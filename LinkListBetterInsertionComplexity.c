@@ -50,5 +50,7 @@ int main()
 				head = head->node;
 			}
 		  
+		  free(head);
+		  free(front);
           return 0;
 }

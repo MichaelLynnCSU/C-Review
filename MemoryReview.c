@@ -29,6 +29,8 @@ int main(){
 	 printf("%s""\t", array[i]); // %s is format specifier
 	 }
 	 
+	 free(arry);
+	 
 	 
 	 
 }

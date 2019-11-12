@@ -27,6 +27,10 @@ int main()
 		  func2(&*record_arr);
 		  func3(record_arr[0]);
 		  func4(&*record_arr[0]);
+		  
+		  free(record_arr);
+		  free(record_node);
+		  
           return 0;
 }
 
