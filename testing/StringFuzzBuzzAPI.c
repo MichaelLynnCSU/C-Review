@@ -16,7 +16,7 @@ int main()
 		
 	    printf("\n");
 		 
-		printf("%s %d", newString, count);
+		printf("%s %d", newString, count + 1);
 		
 		
           return 0;
